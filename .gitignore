@@ -1,0 +1,30 @@
+# Local environment and credentials
+.env
+.env.*
+.envrc
+!.env.example
+!.env.sample
+.npmrc
+.aws/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Dependencies and build output
+node_modules/
+.next/
+.turbo/
+.vercel/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local editor and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+*.log
